@@ -1,0 +1,11 @@
+ $(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:5,
+        itemsDesktop:[5000,3],
+        itemsDesktopSmall:[992,2],
+        itemsTablet:[768,2],
+        itemsMobile:[475,1],
+        pagination:true,
+        autoPlay:true
+    });
+});
